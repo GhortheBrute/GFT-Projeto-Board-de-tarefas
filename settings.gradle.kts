@@ -1,0 +1,1 @@
+rootProject.name = "GFT-Projeto-Board-de-tarefas"
