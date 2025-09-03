@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/src/main/resources/db/changelog/migrations/db.changelog-202509022129.sql" value="46f1b890-bbda-45d0-88bf-e6f2dc4cbd82" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/46f1b890-bbda-45d0-88bf-e6f2dc4cbd82/console.sql" value="46f1b890-bbda-45d0-88bf-e6f2dc4cbd82" />
+  </component>
+</project>
