@@ -3,5 +3,8 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/src/main/resources/db/changelog/migrations/db.changelog-202509022129.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/main/resources/db/changelog/migrations/db.changelog-202509022148.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/db/changelog/migrations/db.changelog-202509030057.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/db/changelog/migrations/db.changelog-202509030100.sql" dialect="MySQL" />
+    <file url="PROJECT" dialect="MySQL" />
   </component>
 </project>

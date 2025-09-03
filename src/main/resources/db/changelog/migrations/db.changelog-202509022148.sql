@@ -12,4 +12,4 @@ CREATE TABLE boards_columns (
     CONSTRAINT id_order_uk UNIQUE KEY unique_board_id_order (board_id, `order`)
 )ENGINE=InnoDB default charset=utf8mb4;
 
---rollback DROP TABLE boards;
+--rollback DROP TABLE boards_columns;
