@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.Optional;
 
 @AllArgsConstructor
@@ -33,7 +34,7 @@ public class BoardDAO {
             """;
 
     public BoardEntity insert(final BoardEntity entity) throws SQLException {
-        try(var stmt = connection.prepareStatement(INSERT_QUERY)) {
+        try(var stmt = connection.prepareStatement(INSERT_QUERY, Statement.RETURN_GENERATED_KEYS)) {
             stmt.setString(1, entity.getName());
             stmt.executeUpdate();
             var rs = stmt.getGeneratedKeys();

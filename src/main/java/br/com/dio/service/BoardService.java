@@ -20,7 +20,7 @@ public class BoardService {
             dao.insert(entity);
             var columns = entity.getBoardColumns()
                     .stream()
-                    .peek(c -> {
+                    .map(c -> {
                         c.setBoard(entity);
                         return c;
                     }).toList();

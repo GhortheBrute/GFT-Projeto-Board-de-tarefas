@@ -1,55 +1,37 @@
-set. 03, 2025 1:04:55 AM liquibase.changelog
+set. 03, 2025 9:46:46 PM liquibase.changelog
 INFO: Reading resource: db/changelog/migrations/db.changelog-202509022129.sql
-set. 03, 2025 1:04:56 AM liquibase.changelog
+set. 03, 2025 9:46:46 PM liquibase.changelog
 INFO: Reading from board.databasechangelog
-set. 03, 2025 1:04:56 AM liquibase.changelog
+set. 03, 2025 9:46:46 PM liquibase.changelog
 INFO: Reading resource: db/changelog/migrations/db.changelog-202509022148.sql
-set. 03, 2025 1:04:56 AM liquibase.changelog
+set. 03, 2025 9:46:46 PM liquibase.changelog
 INFO: Reading resource: db/changelog/migrations/db.changelog-202509030057.sql
-set. 03, 2025 1:04:56 AM liquibase.changelog
+set. 03, 2025 9:46:46 PM liquibase.changelog
 INFO: Reading resource: db/changelog/migrations/db.changelog-202509030100.sql
-set. 03, 2025 1:04:56 AM liquibase.lockservice
-INFO: Successfully acquired change log lock
-set. 03, 2025 1:04:56 AM liquibase.command
-INFO: Using deploymentId: 6872295702
-set. 03, 2025 1:04:56 AM liquibase.changelog
+Database is up to date, no changesets to execute
+set. 03, 2025 9:46:46 PM liquibase.changelog
 INFO: Reading from board.databasechangelog
-Running Changeset: db/changelog/migrations/db.changelog-202509030057.sql::202509030057::wilde
-set. 03, 2025 1:04:56 AM liquibase.changelog
-INFO: Custom SQL executed
-set. 03, 2025 1:04:56 AM liquibase.changelog
-INFO: ChangeSet db/changelog/migrations/db.changelog-202509030057.sql::202509030057::wilde ran successfully in 41ms
-Running Changeset: db/changelog/migrations/db.changelog-202509030100.sql::202509030100::wilde
-set. 03, 2025 1:04:56 AM liquibase.changelog
-INFO: Custom SQL executed
-set. 03, 2025 1:04:56 AM liquibase.changelog
-INFO: ChangeSet db/changelog/migrations/db.changelog-202509030100.sql::202509030100::wilde ran successfully in 25ms
 
 UPDATE SUMMARY
-Run:                          2
-Previously run:               2
+Run:                          0
+Previously run:               4
 Filtered out:                 0
 -------------------------------
 Total change sets:            4
 
-set. 03, 2025 1:04:56 AM liquibase.util
+set. 03, 2025 9:46:46 PM liquibase.util
 INFO: UPDATE SUMMARY
-set. 03, 2025 1:04:56 AM liquibase.util
-INFO: Run:                          2
-set. 03, 2025 1:04:56 AM liquibase.util
-INFO: Previously run:               2
-set. 03, 2025 1:04:56 AM liquibase.util
+set. 03, 2025 9:46:46 PM liquibase.util
+INFO: Run:                          0
+set. 03, 2025 9:46:46 PM liquibase.util
+INFO: Previously run:               4
+set. 03, 2025 9:46:46 PM liquibase.util
 INFO: Filtered out:                 0
-set. 03, 2025 1:04:56 AM liquibase.util
+set. 03, 2025 9:46:46 PM liquibase.util
 INFO: -------------------------------
-set. 03, 2025 1:04:56 AM liquibase.util
+set. 03, 2025 9:46:46 PM liquibase.util
 INFO: Total change sets:            4
-set. 03, 2025 1:04:56 AM liquibase.util
+set. 03, 2025 9:46:46 PM liquibase.util
 INFO: Update summary generated
-set. 03, 2025 1:04:56 AM liquibase.command
-INFO: Update command completed successfully.
-Liquibase: Update has been successful. Rows affected: 0
-set. 03, 2025 1:04:56 AM liquibase.lockservice
-INFO: Successfully released change log lock
-set. 03, 2025 1:04:56 AM liquibase.command
+set. 03, 2025 9:46:46 PM liquibase.command
 INFO: Command execution complete
